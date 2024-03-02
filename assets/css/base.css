@@ -1,0 +1,96 @@
+:root {
+  --color-one: #EFEFEF;
+  --color-two: #DCE8EB;
+  --color-three: #F7D9C4;
+  --color-text-one: #232323;
+  --color-text-two: #777777;
+  --color-text-three: #BBBBBB;
+  --font-one: "DM Sans", sans-serif;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-one);
+  color: var(--color-text-two);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.button {
+  padding: 15px 40px;
+  margin: 10px 10px 10px 0;
+  color: var(--color-text-one);
+  background-color: #FFF;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.7s;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.button-one {
+  background: var(--color-three);
+}
+
+.button-one:hover {
+  background-color: #FFF;
+}
+
+.button-two {
+  background: transparent;
+  color: #FFF;
+  border: 2px solid var(--color-text-two);
+}
+
+.button-two:hover {
+  background: var(--color-three);
+  color: var(--color-text-one);
+  border: 2px solid transparent;
+
+}
