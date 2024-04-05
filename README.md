@@ -8,4 +8,4 @@ This mini project is a simple website created using HTML, CSS and Bootstrap fram
 
 ## Deployment
 
-The website has been deployed and can be accessed at [https://project-mini2-bootstrap4.vercel.app/](https://project-mini2-bootstrap4.vercel.app/).
+The website has been deployed and can be accessed at [https://project-mini1-html5-css3.vercel.app/](https://project-mini1-html5-css3.vercel.app/).
